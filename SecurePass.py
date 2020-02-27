@@ -3,7 +3,7 @@ import base64
 import imageio
 import cv2
 
-# /Users/kalle/Desktop/myfile.py
+# /Users/angelajackson/Desktop/myfile.py
 PASSWORD = "123456"
 
 connect = raw_input("What is your password?\n")
@@ -57,7 +57,7 @@ if connect == PASSWORD:
 
         if input_ == "s":
             # store file
-            PATH = raw_input("Type in the full path to the file you want to store.\nExample: /Users/kalle/Desktop/myfile.py\n")
+            PATH = raw_input("Type in the full path to the file you want to store.\nExample: /Users/angelajackson/Desktop/myfile.py\n")
 
             FILE_TYPES = {
                 "txt": "TEXT",
